@@ -41,6 +41,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.17.1"
+  confetti:
+    dependency: "direct dev"
+    description:
+      name: confetti
+      sha256: "979aafde2428c53947892c95eb244466c109c129b7eee9011f0a66caaca52267"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.7.0"
   fake_async:
     dependency: transitive
     description:
@@ -67,6 +75,22 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  font_awesome_flutter:
+    dependency: transitive
+    description:
+      name: font_awesome_flutter
+      sha256: "5fb789145cae1f4c3245c58b3f8fb287d055c26323879eab57a7bf0cfd1e45f3"
+      url: "https://pub.dev"
+    source: hosted
+    version: "10.5.0"
+  font_awesome_icon_class:
+    dependency: "direct dev"
+    description:
+      name: font_awesome_icon_class
+      sha256: "4920e3ea8ef9102fb3df45fe659a169273bc19d054c3d6121fb0a539867f48c7"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.4"
   js:
     dependency: transitive
     description:
@@ -178,3 +202,4 @@ packages:
     version: "2.1.4"
 sdks:
   dart: ">=3.0.1 <4.0.0"
+  flutter: ">=3.0.0"

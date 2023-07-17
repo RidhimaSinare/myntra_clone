@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:myntra_clone/insider_page.dart';
 
 class ImageBox extends StatelessWidget {
   String imageaddress;
@@ -55,7 +56,9 @@ class ImageBox extends StatelessWidget {
                         fixedSize: Size(120, 50),
                         backgroundColor: Colors.transparent,
                         padding: EdgeInsets.only(left: 3)),
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.pushNamed(context, 'insider');
+                    },
                     child: Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       mainAxisAlignment: MainAxisAlignment.start,
